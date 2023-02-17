@@ -10,6 +10,7 @@ function pdo_connect_mysql() {
     } catch (PDOException $exception) {
     	// If there is an error with the connection, stop the script and display the error.
     	exit('Failed to connect to database!');
+        //Test
     }
 }
 // Template header, feel free to customize this
